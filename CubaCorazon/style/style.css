@@ -1,0 +1,276 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Sato, sans-serif;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+*{
+    /* border: 1px solid darkolivegreen;*/
+    letter-spacing: 1px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+                        /*NAVBAR*/
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    opacity: 0.77;
+    border-radius: 40px;
+}
+
+.ulmenu {
+    list-style: none;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 65%;
+}
+.ulmenu li {
+    padding: 0 20px 0 20px;
+}
+.login-button{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login{
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.login:hover{
+    cursor: pointer;
+}
+.a-login{
+    color: white;
+    text-decoration: none;
+}
+.logout{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+                            /*PAGE D'ACCUEUIL*/
+.image{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Cuba/Images/image-page-accueil.jpeg");
+    background-size: cover;
+}
+h1{
+    font-family: Bruno Ace;
+    font-size: 126px;
+    margin-top: 60px;
+    margin-left: 2.5%;
+    height: 83%;
+}
+.text-accueuil{
+    position: absolute;
+    top: 45%; left: 50%;
+    margin-right: 15%;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.cest-parti{
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 80%; left: 50%;
+    border: 0;
+}
+.cest-parti:hover{
+    cursor: pointer;
+}
+.presentation{
+    width: 100%;
+    height: 100vh;
+}
+.div-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.title{
+    font-family: "Bruno Ace";
+    font-size: 26px;
+}
+
+.equipe{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.personne{
+    height: 100%;
+    width: 30%;
+}
+
+.pres{
+    width: 70%;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.com{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.comments{
+    height: 250px;
+    width: 880px;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-com{
+    width: 100%;
+}
+h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.href-com{
+    height: 100%;
+    width: 100%;
+}
+
+
+                            /*PAGE LOGIN*/
+.login-section{
+    height: 100px;
+    width: 100%;
+}
+.login-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+.login-p{
+    font-family: Montserrat;
+    font-size: larger;
+}
+.form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.login-form{
+    height: 480px;
+    width: 380px;
+    border: 0.3px solid #d6d6d6;
+    border-radius: 15px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-p{
+    font-family: Montserrat;
+    font-size: large;
+}
+.champ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input{
+    width: 315px;
+    height: 30px;
+    border: 0.3px solid #d6d6d6;
+    border-radius: 5px;
+}
+.label{
+    font-family: Montserrat;
+    font-size: medium;
+    width: 100%;
+    margin-left: 32.5px;
+}
+.div-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 315px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+.href{
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+                            /*FOOTER*/
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+
+
